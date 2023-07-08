@@ -1,4 +1,4 @@
-from .interp import _interp3D
+from .interp3d import _interp3D
 
 class Interp3D(object):
     def __init__(self, v, x, y, z):
