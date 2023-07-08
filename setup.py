@@ -7,6 +7,7 @@ import numpy as np
 
 setup(
     name="interp",
+    version="0.1.0",
     ext_modules=cythonize(
       ["interp3d/interp3d.pyx",
                           "interp2d/interp2d.pyx"]),
