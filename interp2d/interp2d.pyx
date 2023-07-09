@@ -23,14 +23,9 @@ cpdef np.float_t _interp2D(np.float_t[:,::1] v, np.float_t x, np.float_t y, int 
 
     if x0 >= 0 and y0 >= 0 and x1 < X and y1 < Y:
         c00 = v_c[Y*x0+y0]*(1-xd) + v_c[Y*x1+y0]*xd
-        c01 = v_c[Y*x0+y0]*(1-xd) + v_c[Y*x1+y0]*xd
         c10 = v_c[Y*x0+y1]*(1-xd) + v_c[Y*x1+y1]*xd
-        c11 = v_c[Y*x0+y1]*(1-xd) + v_c[Y*x1+y1]*xd
 
-        c0 = c00*(1-yd) + c10*yd
-        c1 = c01*(1-yd) + c11*yd
-
-        c = (c0 + c1)/2
+        c = c00*(1-yd) + c10*yd
 
     else:
         c = 0
