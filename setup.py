@@ -7,14 +7,16 @@ import numpy as np
 
 setup(
     name="interp",
-    version="0.1.0",
+    version="0.2.0",
     ext_modules=cythonize(
-      ["interp3d/interp3d.pyx",
-                          "interp2d/interp2d.pyx"]),
-      
+        [
+            "interp/interp3d/interp3d.pyx",
+            "interp/interp2d/interp2d.pyx",
+            "interp/interp1d/interp1d.pyx",
+        ]
+    ),
     packages=[
-          "interp3d",
-            "interp2d"
-            ],
+        "interp",
+    ],
     include_dirs=[np.get_include()],
 )

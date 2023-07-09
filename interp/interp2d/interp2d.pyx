@@ -7,7 +7,7 @@ from cython cimport boundscheck, wraparound, nonecheck, cdivision
 cpdef np.float_t _interp2D(np.float_t[:,::1] v, np.float_t x, np.float_t y, int X, int Y):
 
     cdef:
-        int i, x0, x1, y0, y1, dim
+        int i, x0, x1, y0, y1
         np.float_t xd, yd, c00, c01, c10, c11, c0, c1, c
         np.float_t *v_c
 

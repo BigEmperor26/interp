@@ -4,12 +4,12 @@
 {
     "distutils": {
         "depends": [],
-        "name": "interp3d.interp3d",
+        "name": "interp2d.interp2d",
         "sources": [
-            "interp3d/interp3d.pyx"
+            "interp2d/interp2d.pyx"
         ]
     },
-    "module_name": "interp3d.interp3d"
+    "module_name": "interp2d.interp2d"
 }
 END: Cython Metadata */
 
@@ -751,8 +751,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__interp3d__interp3d
-#define __PYX_HAVE_API__interp3d__interp3d
+#define __PYX_HAVE__interp2d__interp2d
+#define __PYX_HAVE_API__interp2d__interp2d
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -999,7 +999,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "interp3d/interp3d.pyx",
+  "interp2d/interp2d.pyx",
   "__init__.pxd",
   "stringsource",
   "type.pxd",
@@ -1109,7 +1109,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":689
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":689
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1118,7 +1118,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":690
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":690
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1127,7 +1127,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":691
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":691
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1136,7 +1136,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":692
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1145,7 +1145,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":696
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":696
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1154,7 +1154,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":697
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":697
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1163,7 +1163,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":698
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":698
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1172,7 +1172,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":699
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1181,7 +1181,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":703
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":703
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1190,7 +1190,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":704
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":704
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1199,7 +1199,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":713
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":713
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1208,7 +1208,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":714
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":714
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1217,7 +1217,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":715
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":715
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1226,7 +1226,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":717
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":717
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1235,7 +1235,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":718
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":718
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1244,7 +1244,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":719
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":719
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1253,7 +1253,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":721
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":721
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1262,7 +1262,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":722
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":722
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1271,7 +1271,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":724
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":724
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1280,7 +1280,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":725
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":725
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1289,7 +1289,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":726
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":726
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1328,7 +1328,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":728
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":728
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1337,7 +1337,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":729
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":729
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1346,7 +1346,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":730
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":730
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1355,7 +1355,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":732
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":732
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -2097,7 +2097,7 @@ static int __Pyx_ValidateAndInit_memviewslice(
                 PyObject *original_obj);
 
 /* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_nn___pyx_t_5numpy_float_t(PyObject *, int writable_flag);
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_5numpy_float_t(PyObject *, int writable_flag);
 
 /* GCCDiagnostics.proto */
 #if defined(__GNUC__) && (__GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ >= 6))
@@ -2284,7 +2284,7 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'interp3d.interp3d' */
+/* Module declarations from 'interp2d.interp2d' */
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -2296,7 +2296,7 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static __pyx_t_5numpy_float_t __pyx_f_8interp3d_8interp3d__interp3D(__Pyx_memviewslice, __pyx_t_5numpy_float_t, __pyx_t_5numpy_float_t, __pyx_t_5numpy_float_t, int, int, int, int __pyx_skip_dispatch); /*proto*/
+static __pyx_t_5numpy_float_t __pyx_f_8interp2d_8interp2d__interp2D(__Pyx_memviewslice, __pyx_t_5numpy_float_t, __pyx_t_5numpy_float_t, int, int, int __pyx_skip_dispatch); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -2331,11 +2331,11 @@ static void __pyx_memoryview_slice_assign_scalar(__Pyx_memviewslice *, int, size
 static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize_t *, int, size_t, void *); /*proto*/
 static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, PyObject *); /*proto*/
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float_t = { "float_t", NULL, sizeof(__pyx_t_5numpy_float_t), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "interp3d.interp3d"
-extern int __pyx_module_is_main_interp3d__interp3d;
-int __pyx_module_is_main_interp3d__interp3d = 0;
+#define __Pyx_MODULE_NAME "interp2d.interp2d"
+extern int __pyx_module_is_main_interp2d__interp2d;
+int __pyx_module_is_main_interp2d__interp2d = 0;
 
-/* Implementation of 'interp3d.interp3d' */
+/* Implementation of 'interp2d.interp2d' */
 static PyObject *__pyx_builtin_ImportError;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_MemoryError;
@@ -2348,12 +2348,10 @@ static PyObject *__pyx_builtin_IndexError;
 static const char __pyx_k_O[] = "O";
 static const char __pyx_k_X[] = "X";
 static const char __pyx_k_Y[] = "Y";
-static const char __pyx_k_Z[] = "Z";
 static const char __pyx_k_c[] = "c";
 static const char __pyx_k_v[] = "v";
 static const char __pyx_k_x[] = "x";
 static const char __pyx_k_y[] = "y";
-static const char __pyx_k_z[] = "z";
 static const char __pyx_k_id[] = "id";
 static const char __pyx_k_np[] = "np";
 static const char __pyx_k_new[] = "__new__";
@@ -2467,7 +2465,6 @@ static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_View_MemoryView;
 static PyObject *__pyx_n_s_X;
 static PyObject *__pyx_n_s_Y;
-static PyObject *__pyx_n_s_Z;
 static PyObject *__pyx_n_s_allocate_buffer;
 static PyObject *__pyx_n_s_base;
 static PyObject *__pyx_n_s_c;
@@ -2538,8 +2535,7 @@ static PyObject *__pyx_n_s_update;
 static PyObject *__pyx_n_s_v;
 static PyObject *__pyx_n_s_x;
 static PyObject *__pyx_n_s_y;
-static PyObject *__pyx_n_s_z;
-static PyObject *__pyx_pf_8interp3d_8interp3d__interp3D(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_v, __pyx_t_5numpy_float_t __pyx_v_x, __pyx_t_5numpy_float_t __pyx_v_y, __pyx_t_5numpy_float_t __pyx_v_z, int __pyx_v_X, int __pyx_v_Y, int __pyx_v_Z); /* proto */
+static PyObject *__pyx_pf_8interp2d_8interp2d__interp2D(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_v, __pyx_t_5numpy_float_t __pyx_v_x, __pyx_t_5numpy_float_t __pyx_v_y, int __pyx_v_X, int __pyx_v_Y); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(struct __pyx_array_obj *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_array___pyx_pf_15View_dot_MemoryView_5array_4__dealloc__(struct __pyx_array_obj *__pyx_v_self); /* proto */
@@ -2622,77 +2618,64 @@ static PyObject *__pyx_tuple__27;
 static PyObject *__pyx_codeobj__28;
 /* Late includes */
 
-/* "interp3d/interp3d.pyx":7
+/* "interp2d/interp2d.pyx":7
  * 
  * @cdivision(True)
- * cpdef np.float_t _interp3D(np.float_t[:,:,::1] v, np.float_t x, np.float_t y, np.float_t z, int X, int Y, int Z):             # <<<<<<<<<<<<<<
+ * cpdef np.float_t _interp2D(np.float_t[:,::1] v, np.float_t x, np.float_t y, int X, int Y):             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
 
-static PyObject *__pyx_pw_8interp3d_8interp3d_1_interp3D(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static __pyx_t_5numpy_float_t __pyx_f_8interp3d_8interp3d__interp3D(__Pyx_memviewslice __pyx_v_v, __pyx_t_5numpy_float_t __pyx_v_x, __pyx_t_5numpy_float_t __pyx_v_y, __pyx_t_5numpy_float_t __pyx_v_z, int __pyx_v_X, int __pyx_v_Y, int __pyx_v_Z, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_8interp2d_8interp2d_1_interp2D(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static __pyx_t_5numpy_float_t __pyx_f_8interp2d_8interp2d__interp2D(__Pyx_memviewslice __pyx_v_v, __pyx_t_5numpy_float_t __pyx_v_x, __pyx_t_5numpy_float_t __pyx_v_y, int __pyx_v_X, int __pyx_v_Y, CYTHON_UNUSED int __pyx_skip_dispatch) {
   int __pyx_v_x0;
   int __pyx_v_x1;
   int __pyx_v_y0;
   int __pyx_v_y1;
-  int __pyx_v_z0;
-  int __pyx_v_z1;
   __pyx_t_5numpy_float_t __pyx_v_xd;
   __pyx_t_5numpy_float_t __pyx_v_yd;
-  __pyx_t_5numpy_float_t __pyx_v_zd;
   __pyx_t_5numpy_float_t __pyx_v_c00;
-  __pyx_t_5numpy_float_t __pyx_v_c01;
   __pyx_t_5numpy_float_t __pyx_v_c10;
-  __pyx_t_5numpy_float_t __pyx_v_c11;
-  __pyx_t_5numpy_float_t __pyx_v_c0;
-  __pyx_t_5numpy_float_t __pyx_v_c1;
   __pyx_t_5numpy_float_t __pyx_v_c;
   __pyx_t_5numpy_float_t *__pyx_v_v_c;
   __pyx_t_5numpy_float_t __pyx_r;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
   Py_ssize_t __pyx_t_2;
-  Py_ssize_t __pyx_t_3;
+  int __pyx_t_3;
   int __pyx_t_4;
   int __pyx_t_5;
-  int __pyx_t_6;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("_interp3D", 0);
+  __Pyx_RefNannySetupContext("_interp2D", 0);
 
-  /* "interp3d/interp3d.pyx":14
+  /* "interp2d/interp2d.pyx":14
  *         np.float_t *v_c
  * 
- *     v_c = &v[0,0,0]             # <<<<<<<<<<<<<<
+ *     v_c = &v[0,0]             # <<<<<<<<<<<<<<
  * 
  *     x0 = <int>floor(x)
  */
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_3 = 0;
-  __pyx_t_4 = -1;
+  __pyx_t_3 = -1;
   if (__pyx_t_1 < 0) {
     __pyx_t_1 += __pyx_v_v.shape[0];
-    if (unlikely(__pyx_t_1 < 0)) __pyx_t_4 = 0;
-  } else if (unlikely(__pyx_t_1 >= __pyx_v_v.shape[0])) __pyx_t_4 = 0;
+    if (unlikely(__pyx_t_1 < 0)) __pyx_t_3 = 0;
+  } else if (unlikely(__pyx_t_1 >= __pyx_v_v.shape[0])) __pyx_t_3 = 0;
   if (__pyx_t_2 < 0) {
     __pyx_t_2 += __pyx_v_v.shape[1];
-    if (unlikely(__pyx_t_2 < 0)) __pyx_t_4 = 1;
-  } else if (unlikely(__pyx_t_2 >= __pyx_v_v.shape[1])) __pyx_t_4 = 1;
-  if (__pyx_t_3 < 0) {
-    __pyx_t_3 += __pyx_v_v.shape[2];
-    if (unlikely(__pyx_t_3 < 0)) __pyx_t_4 = 2;
-  } else if (unlikely(__pyx_t_3 >= __pyx_v_v.shape[2])) __pyx_t_4 = 2;
-  if (unlikely(__pyx_t_4 != -1)) {
-    __Pyx_RaiseBufferIndexError(__pyx_t_4);
+    if (unlikely(__pyx_t_2 < 0)) __pyx_t_3 = 1;
+  } else if (unlikely(__pyx_t_2 >= __pyx_v_v.shape[1])) __pyx_t_3 = 1;
+  if (unlikely(__pyx_t_3 != -1)) {
+    __Pyx_RaiseBufferIndexError(__pyx_t_3);
     __PYX_ERR(0, 14, __pyx_L1_error)
   }
-  __pyx_v_v_c = (&(*((__pyx_t_5numpy_float_t *) ( /* dim=2 */ ((char *) (((__pyx_t_5numpy_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_v.data + __pyx_t_1 * __pyx_v_v.strides[0]) ) + __pyx_t_2 * __pyx_v_v.strides[1]) )) + __pyx_t_3)) ))));
+  __pyx_v_v_c = (&(*((__pyx_t_5numpy_float_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5numpy_float_t *) ( /* dim=0 */ (__pyx_v_v.data + __pyx_t_1 * __pyx_v_v.strides[0]) )) + __pyx_t_2)) ))));
 
-  /* "interp3d/interp3d.pyx":16
- *     v_c = &v[0,0,0]
+  /* "interp2d/interp2d.pyx":16
+ *     v_c = &v[0,0]
  * 
  *     x0 = <int>floor(x)             # <<<<<<<<<<<<<<
  *     x1 = x0 + 1
@@ -2700,7 +2683,7 @@ static __pyx_t_5numpy_float_t __pyx_f_8interp3d_8interp3d__interp3D(__Pyx_memvie
  */
   __pyx_v_x0 = ((int)floor(__pyx_v_x));
 
-  /* "interp3d/interp3d.pyx":17
+  /* "interp2d/interp2d.pyx":17
  * 
  *     x0 = <int>floor(x)
  *     x1 = x0 + 1             # <<<<<<<<<<<<<<
@@ -2709,188 +2692,114 @@ static __pyx_t_5numpy_float_t __pyx_f_8interp3d_8interp3d__interp3D(__Pyx_memvie
  */
   __pyx_v_x1 = (__pyx_v_x0 + 1);
 
-  /* "interp3d/interp3d.pyx":18
+  /* "interp2d/interp2d.pyx":18
  *     x0 = <int>floor(x)
  *     x1 = x0 + 1
  *     y0 = <int>floor(y)             # <<<<<<<<<<<<<<
  *     y1 = y0 + 1
- *     z0 = <int>floor(z)
+ * 
  */
   __pyx_v_y0 = ((int)floor(__pyx_v_y));
 
-  /* "interp3d/interp3d.pyx":19
+  /* "interp2d/interp2d.pyx":19
  *     x1 = x0 + 1
  *     y0 = <int>floor(y)
  *     y1 = y0 + 1             # <<<<<<<<<<<<<<
- *     z0 = <int>floor(z)
- *     z1 = z0 + 1
+ * 
+ *     xd = (x-x0)/(x1-x0)
  */
   __pyx_v_y1 = (__pyx_v_y0 + 1);
 
-  /* "interp3d/interp3d.pyx":20
- *     y0 = <int>floor(y)
+  /* "interp2d/interp2d.pyx":21
  *     y1 = y0 + 1
- *     z0 = <int>floor(z)             # <<<<<<<<<<<<<<
- *     z1 = z0 + 1
- * 
- */
-  __pyx_v_z0 = ((int)floor(__pyx_v_z));
-
-  /* "interp3d/interp3d.pyx":21
- *     y1 = y0 + 1
- *     z0 = <int>floor(z)
- *     z1 = z0 + 1             # <<<<<<<<<<<<<<
- * 
- *     xd = (x-x0)/(x1-x0)
- */
-  __pyx_v_z1 = (__pyx_v_z0 + 1);
-
-  /* "interp3d/interp3d.pyx":23
- *     z1 = z0 + 1
  * 
  *     xd = (x-x0)/(x1-x0)             # <<<<<<<<<<<<<<
  *     yd = (y-y0)/(y1-y0)
- *     zd = (z-z0)/(z1-z0)
+ * 
  */
   __pyx_v_xd = ((__pyx_v_x - __pyx_v_x0) / (__pyx_v_x1 - __pyx_v_x0));
 
-  /* "interp3d/interp3d.pyx":24
+  /* "interp2d/interp2d.pyx":22
  * 
  *     xd = (x-x0)/(x1-x0)
  *     yd = (y-y0)/(y1-y0)             # <<<<<<<<<<<<<<
- *     zd = (z-z0)/(z1-z0)
  * 
+ *     if x0 >= 0 and y0 >= 0 and x1 < X and y1 < Y:
  */
   __pyx_v_yd = ((__pyx_v_y - __pyx_v_y0) / (__pyx_v_y1 - __pyx_v_y0));
 
-  /* "interp3d/interp3d.pyx":25
- *     xd = (x-x0)/(x1-x0)
+  /* "interp2d/interp2d.pyx":24
  *     yd = (y-y0)/(y1-y0)
- *     zd = (z-z0)/(z1-z0)             # <<<<<<<<<<<<<<
  * 
- *     if x0 >= 0 and y0 >= 0 and z0 >= 0 and x1 < X and y1 < Y and z1 < Z:
+ *     if x0 >= 0 and y0 >= 0 and x1 < X and y1 < Y:             # <<<<<<<<<<<<<<
+ *         c00 = v_c[Y*x0+y0]*(1-xd) + v_c[Y*x1+y0]*xd
+ *         c10 = v_c[Y*x0+y1]*(1-xd) + v_c[Y*x1+y1]*xd
  */
-  __pyx_v_zd = ((__pyx_v_z - __pyx_v_z0) / (__pyx_v_z1 - __pyx_v_z0));
-
-  /* "interp3d/interp3d.pyx":27
- *     zd = (z-z0)/(z1-z0)
- * 
- *     if x0 >= 0 and y0 >= 0 and z0 >= 0 and x1 < X and y1 < Y and z1 < Z:             # <<<<<<<<<<<<<<
- *         c00 = v_c[Y*Z*x0+Z*y0+z0]*(1-xd) + v_c[Y*Z*x1+Z*y0+z0]*xd
- *         c01 = v_c[Y*Z*x0+Z*y0+z1]*(1-xd) + v_c[Y*Z*x1+Z*y0+z1]*xd
- */
-  __pyx_t_6 = ((__pyx_v_x0 >= 0) != 0);
-  if (__pyx_t_6) {
-  } else {
-    __pyx_t_5 = __pyx_t_6;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __pyx_t_6 = ((__pyx_v_y0 >= 0) != 0);
-  if (__pyx_t_6) {
-  } else {
-    __pyx_t_5 = __pyx_t_6;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __pyx_t_6 = ((__pyx_v_z0 >= 0) != 0);
-  if (__pyx_t_6) {
-  } else {
-    __pyx_t_5 = __pyx_t_6;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __pyx_t_6 = ((__pyx_v_x1 < __pyx_v_X) != 0);
-  if (__pyx_t_6) {
-  } else {
-    __pyx_t_5 = __pyx_t_6;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __pyx_t_6 = ((__pyx_v_y1 < __pyx_v_Y) != 0);
-  if (__pyx_t_6) {
-  } else {
-    __pyx_t_5 = __pyx_t_6;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __pyx_t_6 = ((__pyx_v_z1 < __pyx_v_Z) != 0);
-  __pyx_t_5 = __pyx_t_6;
-  __pyx_L4_bool_binop_done:;
+  __pyx_t_5 = ((__pyx_v_x0 >= 0) != 0);
   if (__pyx_t_5) {
+  } else {
+    __pyx_t_4 = __pyx_t_5;
+    goto __pyx_L4_bool_binop_done;
+  }
+  __pyx_t_5 = ((__pyx_v_y0 >= 0) != 0);
+  if (__pyx_t_5) {
+  } else {
+    __pyx_t_4 = __pyx_t_5;
+    goto __pyx_L4_bool_binop_done;
+  }
+  __pyx_t_5 = ((__pyx_v_x1 < __pyx_v_X) != 0);
+  if (__pyx_t_5) {
+  } else {
+    __pyx_t_4 = __pyx_t_5;
+    goto __pyx_L4_bool_binop_done;
+  }
+  __pyx_t_5 = ((__pyx_v_y1 < __pyx_v_Y) != 0);
+  __pyx_t_4 = __pyx_t_5;
+  __pyx_L4_bool_binop_done:;
+  if (__pyx_t_4) {
 
-    /* "interp3d/interp3d.pyx":28
+    /* "interp2d/interp2d.pyx":25
  * 
- *     if x0 >= 0 and y0 >= 0 and z0 >= 0 and x1 < X and y1 < Y and z1 < Z:
- *         c00 = v_c[Y*Z*x0+Z*y0+z0]*(1-xd) + v_c[Y*Z*x1+Z*y0+z0]*xd             # <<<<<<<<<<<<<<
- *         c01 = v_c[Y*Z*x0+Z*y0+z1]*(1-xd) + v_c[Y*Z*x1+Z*y0+z1]*xd
- *         c10 = v_c[Y*Z*x0+Z*y1+z0]*(1-xd) + v_c[Y*Z*x1+Z*y1+z0]*xd
- */
-    __pyx_v_c00 = (((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x0) + (__pyx_v_Z * __pyx_v_y0)) + __pyx_v_z0)]) * (1.0 - __pyx_v_xd)) + ((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x1) + (__pyx_v_Z * __pyx_v_y0)) + __pyx_v_z0)]) * __pyx_v_xd));
-
-    /* "interp3d/interp3d.pyx":29
- *     if x0 >= 0 and y0 >= 0 and z0 >= 0 and x1 < X and y1 < Y and z1 < Z:
- *         c00 = v_c[Y*Z*x0+Z*y0+z0]*(1-xd) + v_c[Y*Z*x1+Z*y0+z0]*xd
- *         c01 = v_c[Y*Z*x0+Z*y0+z1]*(1-xd) + v_c[Y*Z*x1+Z*y0+z1]*xd             # <<<<<<<<<<<<<<
- *         c10 = v_c[Y*Z*x0+Z*y1+z0]*(1-xd) + v_c[Y*Z*x1+Z*y1+z0]*xd
- *         c11 = v_c[Y*Z*x0+Z*y1+z1]*(1-xd) + v_c[Y*Z*x1+Z*y1+z1]*xd
- */
-    __pyx_v_c01 = (((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x0) + (__pyx_v_Z * __pyx_v_y0)) + __pyx_v_z1)]) * (1.0 - __pyx_v_xd)) + ((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x1) + (__pyx_v_Z * __pyx_v_y0)) + __pyx_v_z1)]) * __pyx_v_xd));
-
-    /* "interp3d/interp3d.pyx":30
- *         c00 = v_c[Y*Z*x0+Z*y0+z0]*(1-xd) + v_c[Y*Z*x1+Z*y0+z0]*xd
- *         c01 = v_c[Y*Z*x0+Z*y0+z1]*(1-xd) + v_c[Y*Z*x1+Z*y0+z1]*xd
- *         c10 = v_c[Y*Z*x0+Z*y1+z0]*(1-xd) + v_c[Y*Z*x1+Z*y1+z0]*xd             # <<<<<<<<<<<<<<
- *         c11 = v_c[Y*Z*x0+Z*y1+z1]*(1-xd) + v_c[Y*Z*x1+Z*y1+z1]*xd
- * 
- */
-    __pyx_v_c10 = (((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x0) + (__pyx_v_Z * __pyx_v_y1)) + __pyx_v_z0)]) * (1.0 - __pyx_v_xd)) + ((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x1) + (__pyx_v_Z * __pyx_v_y1)) + __pyx_v_z0)]) * __pyx_v_xd));
-
-    /* "interp3d/interp3d.pyx":31
- *         c01 = v_c[Y*Z*x0+Z*y0+z1]*(1-xd) + v_c[Y*Z*x1+Z*y0+z1]*xd
- *         c10 = v_c[Y*Z*x0+Z*y1+z0]*(1-xd) + v_c[Y*Z*x1+Z*y1+z0]*xd
- *         c11 = v_c[Y*Z*x0+Z*y1+z1]*(1-xd) + v_c[Y*Z*x1+Z*y1+z1]*xd             # <<<<<<<<<<<<<<
- * 
- *         c0 = c00*(1-yd) + c10*yd
- */
-    __pyx_v_c11 = (((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x0) + (__pyx_v_Z * __pyx_v_y1)) + __pyx_v_z1)]) * (1.0 - __pyx_v_xd)) + ((__pyx_v_v_c[((((__pyx_v_Y * __pyx_v_Z) * __pyx_v_x1) + (__pyx_v_Z * __pyx_v_y1)) + __pyx_v_z1)]) * __pyx_v_xd));
-
-    /* "interp3d/interp3d.pyx":33
- *         c11 = v_c[Y*Z*x0+Z*y1+z1]*(1-xd) + v_c[Y*Z*x1+Z*y1+z1]*xd
- * 
- *         c0 = c00*(1-yd) + c10*yd             # <<<<<<<<<<<<<<
- *         c1 = c01*(1-yd) + c11*yd
+ *     if x0 >= 0 and y0 >= 0 and x1 < X and y1 < Y:
+ *         c00 = v_c[Y*x0+y0]*(1-xd) + v_c[Y*x1+y0]*xd             # <<<<<<<<<<<<<<
+ *         c10 = v_c[Y*x0+y1]*(1-xd) + v_c[Y*x1+y1]*xd
  * 
  */
-    __pyx_v_c0 = ((__pyx_v_c00 * (1.0 - __pyx_v_yd)) + (__pyx_v_c10 * __pyx_v_yd));
+    __pyx_v_c00 = (((__pyx_v_v_c[((__pyx_v_Y * __pyx_v_x0) + __pyx_v_y0)]) * (1.0 - __pyx_v_xd)) + ((__pyx_v_v_c[((__pyx_v_Y * __pyx_v_x1) + __pyx_v_y0)]) * __pyx_v_xd));
 
-    /* "interp3d/interp3d.pyx":34
+    /* "interp2d/interp2d.pyx":26
+ *     if x0 >= 0 and y0 >= 0 and x1 < X and y1 < Y:
+ *         c00 = v_c[Y*x0+y0]*(1-xd) + v_c[Y*x1+y0]*xd
+ *         c10 = v_c[Y*x0+y1]*(1-xd) + v_c[Y*x1+y1]*xd             # <<<<<<<<<<<<<<
  * 
- *         c0 = c00*(1-yd) + c10*yd
- *         c1 = c01*(1-yd) + c11*yd             # <<<<<<<<<<<<<<
- * 
- *         c = c0*(1-zd) + c1*zd
+ *         c = c00*(1-yd) + c10*yd
  */
-    __pyx_v_c1 = ((__pyx_v_c01 * (1.0 - __pyx_v_yd)) + (__pyx_v_c11 * __pyx_v_yd));
+    __pyx_v_c10 = (((__pyx_v_v_c[((__pyx_v_Y * __pyx_v_x0) + __pyx_v_y1)]) * (1.0 - __pyx_v_xd)) + ((__pyx_v_v_c[((__pyx_v_Y * __pyx_v_x1) + __pyx_v_y1)]) * __pyx_v_xd));
 
-    /* "interp3d/interp3d.pyx":36
- *         c1 = c01*(1-yd) + c11*yd
+    /* "interp2d/interp2d.pyx":28
+ *         c10 = v_c[Y*x0+y1]*(1-xd) + v_c[Y*x1+y1]*xd
  * 
- *         c = c0*(1-zd) + c1*zd             # <<<<<<<<<<<<<<
+ *         c = c00*(1-yd) + c10*yd             # <<<<<<<<<<<<<<
  * 
  *     else:
  */
-    __pyx_v_c = ((__pyx_v_c0 * (1.0 - __pyx_v_zd)) + (__pyx_v_c1 * __pyx_v_zd));
+    __pyx_v_c = ((__pyx_v_c00 * (1.0 - __pyx_v_yd)) + (__pyx_v_c10 * __pyx_v_yd));
 
-    /* "interp3d/interp3d.pyx":27
- *     zd = (z-z0)/(z1-z0)
+    /* "interp2d/interp2d.pyx":24
+ *     yd = (y-y0)/(y1-y0)
  * 
- *     if x0 >= 0 and y0 >= 0 and z0 >= 0 and x1 < X and y1 < Y and z1 < Z:             # <<<<<<<<<<<<<<
- *         c00 = v_c[Y*Z*x0+Z*y0+z0]*(1-xd) + v_c[Y*Z*x1+Z*y0+z0]*xd
- *         c01 = v_c[Y*Z*x0+Z*y0+z1]*(1-xd) + v_c[Y*Z*x1+Z*y0+z1]*xd
+ *     if x0 >= 0 and y0 >= 0 and x1 < X and y1 < Y:             # <<<<<<<<<<<<<<
+ *         c00 = v_c[Y*x0+y0]*(1-xd) + v_c[Y*x1+y0]*xd
+ *         c10 = v_c[Y*x0+y1]*(1-xd) + v_c[Y*x1+y1]*xd
  */
     goto __pyx_L3;
   }
 
-  /* "interp3d/interp3d.pyx":39
+  /* "interp2d/interp2d.pyx":31
  * 
  *     else:
  *         c = 0             # <<<<<<<<<<<<<<
+ * 
  *     return c
  */
   /*else*/ {
@@ -2898,25 +2807,25 @@ static __pyx_t_5numpy_float_t __pyx_f_8interp3d_8interp3d__interp3D(__Pyx_memvie
   }
   __pyx_L3:;
 
-  /* "interp3d/interp3d.pyx":40
- *     else:
+  /* "interp2d/interp2d.pyx":33
  *         c = 0
+ * 
  *     return c             # <<<<<<<<<<<<<<
  */
   __pyx_r = __pyx_v_c;
   goto __pyx_L0;
 
-  /* "interp3d/interp3d.pyx":7
+  /* "interp2d/interp2d.pyx":7
  * 
  * @cdivision(True)
- * cpdef np.float_t _interp3D(np.float_t[:,:,::1] v, np.float_t x, np.float_t y, np.float_t z, int X, int Y, int Z):             # <<<<<<<<<<<<<<
+ * cpdef np.float_t _interp2D(np.float_t[:,::1] v, np.float_t x, np.float_t y, int X, int Y):             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_WriteUnraisable("interp3d.interp3d._interp3D", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __Pyx_WriteUnraisable("interp2d.interp2d._interp2D", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -2924,32 +2833,26 @@ static __pyx_t_5numpy_float_t __pyx_f_8interp3d_8interp3d__interp3D(__Pyx_memvie
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8interp3d_8interp3d_1_interp3D(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyObject *__pyx_pw_8interp3d_8interp3d_1_interp3D(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8interp2d_8interp2d_1_interp2D(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_8interp2d_8interp2d_1_interp2D(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_v = { 0, 0, { 0 }, { 0 }, { 0 } };
   __pyx_t_5numpy_float_t __pyx_v_x;
   __pyx_t_5numpy_float_t __pyx_v_y;
-  __pyx_t_5numpy_float_t __pyx_v_z;
   int __pyx_v_X;
   int __pyx_v_Y;
-  int __pyx_v_Z;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("_interp3D (wrapper)", 0);
+  __Pyx_RefNannySetupContext("_interp2D (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_v,&__pyx_n_s_x,&__pyx_n_s_y,&__pyx_n_s_z,&__pyx_n_s_X,&__pyx_n_s_Y,&__pyx_n_s_Z,0};
-    PyObject* values[7] = {0,0,0,0,0,0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_v,&__pyx_n_s_x,&__pyx_n_s_y,&__pyx_n_s_X,&__pyx_n_s_Y,0};
+    PyObject* values[5] = {0,0,0,0,0};
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
-        case  7: values[6] = PyTuple_GET_ITEM(__pyx_args, 6);
-        CYTHON_FALLTHROUGH;
-        case  6: values[5] = PyTuple_GET_ITEM(__pyx_args, 5);
-        CYTHON_FALLTHROUGH;
         case  5: values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
         CYTHON_FALLTHROUGH;
         case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
@@ -2972,43 +2875,31 @@ static PyObject *__pyx_pw_8interp3d_8interp3d_1_interp3D(PyObject *__pyx_self, P
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_x)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_interp3D", 1, 7, 7, 1); __PYX_ERR(0, 7, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_interp2D", 1, 5, 5, 1); __PYX_ERR(0, 7, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_y)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_interp3D", 1, 7, 7, 2); __PYX_ERR(0, 7, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_interp2D", 1, 5, 5, 2); __PYX_ERR(0, 7, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
-        if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_z)) != 0)) kw_args--;
+        if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_X)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_interp3D", 1, 7, 7, 3); __PYX_ERR(0, 7, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_interp2D", 1, 5, 5, 3); __PYX_ERR(0, 7, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
-        if (likely((values[4] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_X)) != 0)) kw_args--;
+        if (likely((values[4] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_Y)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_interp3D", 1, 7, 7, 4); __PYX_ERR(0, 7, __pyx_L3_error)
-        }
-        CYTHON_FALLTHROUGH;
-        case  5:
-        if (likely((values[5] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_Y)) != 0)) kw_args--;
-        else {
-          __Pyx_RaiseArgtupleInvalid("_interp3D", 1, 7, 7, 5); __PYX_ERR(0, 7, __pyx_L3_error)
-        }
-        CYTHON_FALLTHROUGH;
-        case  6:
-        if (likely((values[6] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_Z)) != 0)) kw_args--;
-        else {
-          __Pyx_RaiseArgtupleInvalid("_interp3D", 1, 7, 7, 6); __PYX_ERR(0, 7, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_interp2D", 1, 5, 5, 4); __PYX_ERR(0, 7, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_interp3D") < 0)) __PYX_ERR(0, 7, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_interp2D") < 0)) __PYX_ERR(0, 7, __pyx_L3_error)
       }
-    } else if (PyTuple_GET_SIZE(__pyx_args) != 7) {
+    } else if (PyTuple_GET_SIZE(__pyx_args) != 5) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -3016,43 +2907,39 @@ static PyObject *__pyx_pw_8interp3d_8interp3d_1_interp3D(PyObject *__pyx_self, P
       values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
       values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
       values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
-      values[5] = PyTuple_GET_ITEM(__pyx_args, 5);
-      values[6] = PyTuple_GET_ITEM(__pyx_args, 6);
     }
-    __pyx_v_v = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_nn___pyx_t_5numpy_float_t(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_v.memview)) __PYX_ERR(0, 7, __pyx_L3_error)
+    __pyx_v_v = __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_5numpy_float_t(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_v.memview)) __PYX_ERR(0, 7, __pyx_L3_error)
     __pyx_v_x = __pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_x == ((npy_double)-1)) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
     __pyx_v_y = __pyx_PyFloat_AsDouble(values[2]); if (unlikely((__pyx_v_y == ((npy_double)-1)) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
-    __pyx_v_z = __pyx_PyFloat_AsDouble(values[3]); if (unlikely((__pyx_v_z == ((npy_double)-1)) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
-    __pyx_v_X = __Pyx_PyInt_As_int(values[4]); if (unlikely((__pyx_v_X == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
-    __pyx_v_Y = __Pyx_PyInt_As_int(values[5]); if (unlikely((__pyx_v_Y == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
-    __pyx_v_Z = __Pyx_PyInt_As_int(values[6]); if (unlikely((__pyx_v_Z == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
+    __pyx_v_X = __Pyx_PyInt_As_int(values[3]); if (unlikely((__pyx_v_X == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
+    __pyx_v_Y = __Pyx_PyInt_As_int(values[4]); if (unlikely((__pyx_v_Y == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 7, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_interp3D", 1, 7, 7, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 7, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_interp2D", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 7, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("interp3d.interp3d._interp3D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("interp2d.interp2d._interp2D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8interp3d_8interp3d__interp3D(__pyx_self, __pyx_v_v, __pyx_v_x, __pyx_v_y, __pyx_v_z, __pyx_v_X, __pyx_v_Y, __pyx_v_Z);
+  __pyx_r = __pyx_pf_8interp2d_8interp2d__interp2D(__pyx_self, __pyx_v_v, __pyx_v_x, __pyx_v_y, __pyx_v_X, __pyx_v_Y);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8interp3d_8interp3d__interp3D(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_v, __pyx_t_5numpy_float_t __pyx_v_x, __pyx_t_5numpy_float_t __pyx_v_y, __pyx_t_5numpy_float_t __pyx_v_z, int __pyx_v_X, int __pyx_v_Y, int __pyx_v_Z) {
+static PyObject *__pyx_pf_8interp2d_8interp2d__interp2D(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_v, __pyx_t_5numpy_float_t __pyx_v_x, __pyx_t_5numpy_float_t __pyx_v_y, int __pyx_v_X, int __pyx_v_Y) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("_interp3D", 0);
+  __Pyx_RefNannySetupContext("_interp2D", 0);
   __Pyx_XDECREF(__pyx_r);
   if (unlikely(!__pyx_v_v.memview)) { __Pyx_RaiseUnboundLocalError("v"); __PYX_ERR(0, 7, __pyx_L1_error) }
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_f_8interp3d_8interp3d__interp3D(__pyx_v_v, __pyx_v_x, __pyx_v_y, __pyx_v_z, __pyx_v_X, __pyx_v_Y, __pyx_v_Z, 0)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 7, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_f_8interp2d_8interp2d__interp2D(__pyx_v_v, __pyx_v_x, __pyx_v_y, __pyx_v_X, __pyx_v_Y, 0)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3061,7 +2948,7 @@ static PyObject *__pyx_pf_8interp3d_8interp3d__interp3D(CYTHON_UNUSED PyObject *
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("interp3d.interp3d._interp3D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("interp2d.interp2d._interp2D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_v, 1);
@@ -3070,7 +2957,7 @@ static PyObject *__pyx_pf_8interp3d_8interp3d__interp3D(CYTHON_UNUSED PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":734
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3087,7 +2974,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":735
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":735
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -3101,7 +2988,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":734
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3120,7 +3007,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":737
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -3137,7 +3024,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":738
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":738
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -3151,7 +3038,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":737
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -3170,7 +3057,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":740
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -3187,7 +3074,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":741
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":741
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -3201,7 +3088,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":740
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -3220,7 +3107,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":743
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -3237,7 +3124,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":744
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":744
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -3251,7 +3138,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":743
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -3270,7 +3157,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":746
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -3287,7 +3174,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":747
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":747
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -3301,7 +3188,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":746
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -3320,7 +3207,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":749
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -3334,7 +3221,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":750
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -3344,7 +3231,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":751
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":751
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -3356,7 +3243,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":750
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -3365,7 +3252,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":753
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":753
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -3379,7 +3266,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":749
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -3394,7 +3281,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":928
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -3406,7 +3293,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":929
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":929
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -3415,7 +3302,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":930
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":930
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -3424,7 +3311,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":928
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -3436,7 +3323,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":932
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -3451,7 +3338,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":933
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":933
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -3460,7 +3347,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":934
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -3470,7 +3357,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":935
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":935
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -3481,7 +3368,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":934
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -3490,7 +3377,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":936
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":936
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -3502,7 +3389,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":932
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -3517,7 +3404,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":940
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -3541,7 +3428,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":941
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3557,7 +3444,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":942
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":942
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -3566,7 +3453,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 942, __pyx_L3_error)
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":941
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3580,7 +3467,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":943
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":943
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -3595,7 +3482,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":944
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -3611,7 +3498,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":941
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3626,7 +3513,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":940
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -3649,7 +3536,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":946
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -3673,7 +3560,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":947
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3689,7 +3576,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":948
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":948
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -3698,7 +3585,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 948, __pyx_L3_error)
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":947
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3712,7 +3599,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":949
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":949
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -3727,7 +3614,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":950
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -3743,7 +3630,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":947
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3758,7 +3645,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":946
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -3781,7 +3668,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":952
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -3805,7 +3692,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":953
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3821,7 +3708,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":954
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":954
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -3830,7 +3717,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 954, __pyx_L3_error)
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":953
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3844,7 +3731,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":955
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":955
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -3859,7 +3746,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":956
+      /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":956
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -3875,7 +3762,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":953
+    /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -3890,7 +3777,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":952
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -3913,7 +3800,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":966
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -3926,7 +3813,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":978
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":978
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -3936,7 +3823,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":966
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -3950,7 +3837,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":981
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -3963,7 +3850,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":993
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":993
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -3973,7 +3860,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":981
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -3987,7 +3874,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":996
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -3998,7 +3885,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1003
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1003
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4008,7 +3895,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":996
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4021,7 +3908,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1006
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4032,7 +3919,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1010
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1010
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4042,7 +3929,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1006
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4055,7 +3942,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1013
+/* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4066,7 +3953,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1017
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1017
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -4074,7 +3961,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -17250,7 +17137,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "interp3d.interp3d.array", /*tp_name*/
+  "interp2d.interp2d.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -17372,7 +17259,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "interp3d.interp3d.Enum", /*tp_name*/
+  "interp2d.interp2d.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -17636,7 +17523,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "interp3d.interp3d.memoryview", /*tp_name*/
+  "interp2d.interp2d.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -17777,7 +17664,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "interp3d.interp3d._memoryviewslice", /*tp_name*/
+  "interp2d.interp2d._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -17856,24 +17743,24 @@ static PyTypeObject __pyx_type___pyx_memoryviewslice = {
 };
 
 static PyMethodDef __pyx_methods[] = {
-  {"_interp3D", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8interp3d_8interp3d_1_interp3D, METH_VARARGS|METH_KEYWORDS, 0},
+  {"_interp2D", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8interp2d_8interp2d_1_interp2D, METH_VARARGS|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 
 #if PY_MAJOR_VERSION >= 3
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /*proto*/
-static int __pyx_pymod_exec_interp3d(PyObject* module); /*proto*/
+static int __pyx_pymod_exec_interp2d(PyObject* module); /*proto*/
 static PyModuleDef_Slot __pyx_moduledef_slots[] = {
   {Py_mod_create, (void*)__pyx_pymod_create},
-  {Py_mod_exec, (void*)__pyx_pymod_exec_interp3d},
+  {Py_mod_exec, (void*)__pyx_pymod_exec_interp2d},
   {0, NULL}
 };
 #endif
 
 static struct PyModuleDef __pyx_moduledef = {
     PyModuleDef_HEAD_INIT,
-    "interp3d",
+    "interp2d",
     0, /* m_doc */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
     0, /* m_size */
@@ -17928,7 +17815,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
   {&__pyx_n_s_X, __pyx_k_X, sizeof(__pyx_k_X), 0, 0, 1, 1},
   {&__pyx_n_s_Y, __pyx_k_Y, sizeof(__pyx_k_Y), 0, 0, 1, 1},
-  {&__pyx_n_s_Z, __pyx_k_Z, sizeof(__pyx_k_Z), 0, 0, 1, 1},
   {&__pyx_n_s_allocate_buffer, __pyx_k_allocate_buffer, sizeof(__pyx_k_allocate_buffer), 0, 0, 1, 1},
   {&__pyx_n_s_base, __pyx_k_base, sizeof(__pyx_k_base), 0, 0, 1, 1},
   {&__pyx_n_s_c, __pyx_k_c, sizeof(__pyx_k_c), 0, 0, 1, 1},
@@ -17999,7 +17885,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_v, __pyx_k_v, sizeof(__pyx_k_v), 0, 0, 1, 1},
   {&__pyx_n_s_x, __pyx_k_x, sizeof(__pyx_k_x), 0, 0, 1, 1},
   {&__pyx_n_s_y, __pyx_k_y, sizeof(__pyx_k_y), 0, 0, 1, 1},
-  {&__pyx_n_s_z, __pyx_k_z, sizeof(__pyx_k_z), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
@@ -18021,7 +17906,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":944
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -18032,7 +17917,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "../../../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":950
+  /* "../../../../opt/homebrew/Caskroom/miniconda/base/envs/pyslick/lib/python3.11/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -18358,7 +18243,7 @@ static int __Pyx_modinit_function_export_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_function_export_code", 0);
   /*--- Function export code ---*/
-  if (__Pyx_ExportFunction("_interp3D", (void (*)(void))__pyx_f_8interp3d_8interp3d__interp3D, "__pyx_t_5numpy_float_t (__Pyx_memviewslice, __pyx_t_5numpy_float_t, __pyx_t_5numpy_float_t, __pyx_t_5numpy_float_t, int, int, int, int __pyx_skip_dispatch)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_ExportFunction("_interp2D", (void (*)(void))__pyx_f_8interp2d_8interp2d__interp2D, "__pyx_t_5numpy_float_t (__Pyx_memviewslice, __pyx_t_5numpy_float_t, __pyx_t_5numpy_float_t, int, int, int __pyx_skip_dispatch)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -18526,11 +18411,11 @@ static int __Pyx_modinit_function_import_code(void) {
 
 
 #if PY_MAJOR_VERSION < 3
-__Pyx_PyMODINIT_FUNC initinterp3d(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC initinterp3d(void)
+__Pyx_PyMODINIT_FUNC initinterp2d(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC initinterp2d(void)
 #else
-__Pyx_PyMODINIT_FUNC PyInit_interp3d(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC PyInit_interp3d(void)
+__Pyx_PyMODINIT_FUNC PyInit_interp2d(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC PyInit_interp2d(void)
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 {
   return PyModuleDef_Init(&__pyx_moduledef);
@@ -18597,7 +18482,7 @@ bad:
 }
 
 
-static CYTHON_SMALL_CODE int __pyx_pymod_exec_interp3d(PyObject *__pyx_pyinit_module)
+static CYTHON_SMALL_CODE int __pyx_pymod_exec_interp2d(PyObject *__pyx_pyinit_module)
 #endif
 #endif
 {
@@ -18610,7 +18495,7 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_interp3d(PyObject *__pyx_pyinit_mo
   #if CYTHON_PEP489_MULTI_PHASE_INIT
   if (__pyx_m) {
     if (__pyx_m == __pyx_pyinit_module) return 0;
-    PyErr_SetString(PyExc_RuntimeError, "Module 'interp3d' has already been imported. Re-initialisation is not supported.");
+    PyErr_SetString(PyExc_RuntimeError, "Module 'interp2d' has already been imported. Re-initialisation is not supported.");
     return -1;
   }
   #elif PY_MAJOR_VERSION >= 3
@@ -18625,7 +18510,7 @@ if (!__Pyx_RefNanny) {
       Py_FatalError("failed to import 'refnanny' module");
 }
 #endif
-  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_interp3d(void)", 0);
+  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_interp2d(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #ifdef __Pxy_PyFrame_Initialize_Offsets
   __Pxy_PyFrame_Initialize_Offsets();
@@ -18662,7 +18547,7 @@ if (!__Pyx_RefNanny) {
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("interp3d", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("interp2d", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -18680,14 +18565,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_interp3d__interp3d) {
+  if (__pyx_module_is_main_interp2d__interp2d) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "interp3d.interp3d")) {
-      if (unlikely(PyDict_SetItemString(modules, "interp3d.interp3d", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "interp2d.interp2d")) {
+      if (unlikely(PyDict_SetItemString(modules, "interp2d.interp2d", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -18708,7 +18593,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "interp3d/interp3d.pyx":2
+  /* "interp2d/interp2d.pyx":2
  * cimport numpy as np
  * import numpy as np             # <<<<<<<<<<<<<<
  * from libc.math cimport floor
@@ -18719,7 +18604,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "interp3d/interp3d.pyx":1
+  /* "interp2d/interp2d.pyx":1
  * cimport numpy as np             # <<<<<<<<<<<<<<
  * import numpy as np
  * from libc.math cimport floor
@@ -18889,11 +18774,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init interp3d.interp3d", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init interp2d.interp2d", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init interp3d.interp3d");
+    PyErr_SetString(PyExc_ImportError, "init interp2d.interp2d");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -21990,17 +21875,17 @@ no_fail:
 }
 
 /* ObjectToMemviewSlice */
-  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_nn___pyx_t_5numpy_float_t(PyObject *obj, int writable_flag) {
+  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_5numpy_float_t(PyObject *obj, int writable_flag) {
     __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
     __Pyx_BufFmt_StackElem stack[1];
-    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
+    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
     int retcode;
     if (obj == Py_None) {
         result.memview = (struct __pyx_memoryview_obj *) Py_None;
         return result;
     }
     retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
-                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 3,
+                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
                                                  &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, stack,
                                                  &result, obj);
     if (unlikely(retcode == -1))

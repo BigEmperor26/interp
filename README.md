@@ -1,4 +1,4 @@
-A faster 3D interpolation to replace `scipy.interpolate.RegularGridInterpolator()`
+A faster 1-2-3D interpolation to replace `scipy.interpolate.RegularGridInterpolator()`
 
 Implemented after <https://stackoverflow.com/questions/41220617/python-3d-interpolation-speedup>.
 
