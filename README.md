@@ -5,7 +5,9 @@ Implemented after <https://stackoverflow.com/questions/41220617/python-3d-interp
 Installation (requires **cython**):
 
 ```
-python3 setup.py install
+git clone https://github.com/BigEmperor26/interp.git
+cd interp
+pip install .
 ```
 
 Usage:
